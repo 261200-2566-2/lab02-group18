@@ -1,0 +1,26 @@
+Design Overview Lab_02
+
+- instance variables
+     String Model รุ่นเครื่อง
+     String serialNo เลขประจำตัวของเครื่อง
+     String mode โหมดการทำงานปัจจุบัน
+     double width ความกว้าง
+     double length ความยาว
+     double height ความสูง
+     boolean power สถานะเปิด-ปิดเครื่อง
+     int CADR อัตราการสร้างอากาศบริสุทธิ์(m^3/h)
+
+- instance methods
+     void changeMode() เปลี่ยนโหมดการทำงาน ซึ่งเปลี่ยนได้เฉพาะตอนเปิดเครื่องอยู่เท่านั้น
+     void screen() แสดงผลว่าเครื่องเปิดและอยู่ในโหมดการทำงานแบบไหน
+     void size() แสดงขนาด (กว้าง*ยาว*สูง)
+     void on_off() เปลี่ยนสถานะเปิด-ปิดเครื่องโดยตรวจสอบจากสถานะก่อนหน้า
+
+- class variables
+     static int modelPro_HCount จำนวนเครื่องทั้งหมดของ model ProH
+     static int modelPro_Count จำนวนเครื่องทั้งหมดของ model Pro
+
+- class methods
+     static String PopularModel() return string ของ model ที่ขายดีที่สุด
+
+ข้อมูลเครื่องฟอกอากาศจาก https://ilovecoffeedesign.com/wp-content/uploads/2023/04/%E0%B8%95%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%87%E0%B9%80%E0%B8%9B%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%9A%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B8%A2%E0%B8%9A-%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%9F%E0%B8%AD%E0%B8%81%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8-xiaomi-air-purifier-4-891x1024.jpg
